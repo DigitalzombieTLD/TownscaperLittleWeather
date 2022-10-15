@@ -1,4 +1,4 @@
-Townscaper - LittleWeather mod - v0.6.1 by Digitalzombie
+Townscaper - LittleWeather mod - v0.8.0 by Digitalzombie
 ===========================================================
 
 How to install:
@@ -19,9 +19,13 @@ https://github.com/LavaGang/MelonLoader/releases/latest/
 
 3. Download the mod (latest release) from: https://github.com/DigitalzombieTLD/TownscaperLittleWeather/releases/latest/
 
-4. Extract the all files from the "LittleWeather_Release_0.6.1.zip" into your games Mods folder
+4. Extract the all files from the "LittleWeather_Release_0.8.0.zip" into your games Mods folder
 
-5. Start the game! 
+5. Download the utility mod "ModUI" (latest release) from: https://github.com/DigitalzombieTLD/TownscaperModUI/releases/latest/
+
+6. Extract the all files from the ModUI download into your games Mods folder
+
+7. Start the game! 
 
 ===========================
 ===========================
@@ -47,17 +51,10 @@ https://www.youtube.com/c/DigitalzombieDev
 Thanks to:
 LavaGang for MelonLoader
 
-ThirdParty  code:
-Il2Cpp Asset Bundle Manager
-https://github.com/LavaGang/UnityEngine.Il2CppAssetBundleManager
-Licensed under the Apache License, Version 2.0
-
-
-LittleWeather is licensed under Apache License, Version 2.0
-
 ===========================
 ===========================
 
 Changelog:
 ==========
+0.8.0   - Finally added ModUI support
 0.6.1 	- First release
