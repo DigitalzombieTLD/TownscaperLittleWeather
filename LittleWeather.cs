@@ -14,7 +14,7 @@ namespace LittleWeather
 
 			if (weatherBundle == null)
 			{
-				MelonLogger.Msg("Failed to load assetaundle: \"littleweatherbundle.unity3d\"");
+				MelonLogger.Msg("Failed to load assetbundle: \"littleweatherbundle.unity3d\"");
 				return;
 			}
 			else
@@ -25,18 +25,16 @@ namespace LittleWeather
 
 
 		public override void OnSceneWasLoaded(int buildIndex, string sceneName)
-		{
-			MelonLogger.Msg("Loaded scene: " + sceneName);
-
-			if(sceneName == "FlatscreenUi" && !GUIMain.currentGUI)
+		{			
+			if(sceneName == "Placemaker")
 			{
-				GUIMain.InitUI();
+				MyModUI.Initialize(this);
 			}			
 		}
 
 		public override void OnUpdate()
 		{
-			InputMain.GetInput();
+			
 		}
 	}
 }

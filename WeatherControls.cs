@@ -44,11 +44,12 @@ namespace LittleWeather
 
 		public static void Activate(string weatherName)
 		{
+			WeatherControlsMain.weatherCenter = BootMaster.instance.worldMaster.graph.groundCollider.center + WeatherControlsMain.weatherOffset;
 			MelonLogger.Msg("Switch to weather: " + weatherName);
 			UnityEngine.Object.Destroy(currentWeather);
 			currentWeather = UnityEngine.Object.Instantiate(LittleWeatherMain.weatherBundle.LoadAsset<GameObject>(weatherName));
 			SceneManager.MoveGameObjectToScene(currentWeather, SceneManager.GetSceneByName("Placemaker"));
-			//currentWeather.transform.position = Input_Main.mousePos;
+		
 			currentWeather.transform.position = weatherCenter;
 		}
 
